@@ -14,14 +14,16 @@ Summary: Tracing Instrumentation using OpenTracing API (http://opentracing.io)
 Current build status
 ====================
 
-Linux: [![Circle CI](https://circleci.com/gh/conda-forge/opentracing_instrumentation-feedstock.svg?style=shield)](https://circleci.com/gh/conda-forge/opentracing_instrumentation-feedstock)
-OSX: [![TravisCI](https://travis-ci.org/conda-forge/opentracing_instrumentation-feedstock.svg?branch=master)](https://travis-ci.org/conda-forge/opentracing_instrumentation-feedstock)
-Windows: [![AppVeyor](https://ci.appveyor.com/api/projects/status/github/conda-forge/opentracing_instrumentation-feedstock?svg=True)](https://ci.appveyor.com/project/conda-forge/opentracing-instrumentation-feedstock/branch/master)
+[![Linux](https://img.shields.io/circleci/project/github/conda-forge/opentracing_instrumentation-feedstock/master.svg?label=Linux)](https://circleci.com/gh/conda-forge/opentracing_instrumentation-feedstock)
+[![OSX](https://img.shields.io/travis/conda-forge/opentracing_instrumentation-feedstock/master.svg?label=macOS)](https://travis-ci.org/conda-forge/opentracing_instrumentation-feedstock)
+[![Windows](https://img.shields.io/appveyor/ci/conda-forge/opentracing_instrumentation-feedstock/master.svg?label=Windows)](https://ci.appveyor.com/project/conda-forge/opentracing-instrumentation-feedstock/branch/master)
 
 Current release info
 ====================
-Version: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/opentracing_instrumentation/badges/version.svg)](https://anaconda.org/conda-forge/opentracing_instrumentation)
-Downloads: [![Anaconda-Server Badge](https://anaconda.org/conda-forge/opentracing_instrumentation/badges/downloads.svg)](https://anaconda.org/conda-forge/opentracing_instrumentation)
+[![Conda Recipe](https://img.shields.io/badge/recipe-opentracing_instrumentation-green.svg)](https://anaconda.org/conda-forge/opentracing_instrumentation)
+[![Conda Downloads](https://img.shields.io/conda/dn/conda-forge/opentracing_instrumentation.svg)](https://anaconda.org/conda-forge/opentracing_instrumentation)
+[![Conda Version](https://img.shields.io/conda/vn/conda-forge/opentracing_instrumentation.svg)](https://anaconda.org/conda-forge/opentracing_instrumentation)
+[![Conda Platforms](https://img.shields.io/conda/pn/conda-forge/opentracing_instrumentation.svg)](https://anaconda.org/conda-forge/opentracing_instrumentation)
 
 Installing opentracing_instrumentation
 ======================================
