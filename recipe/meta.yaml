@@ -1,7 +1,7 @@
 {% set name = "opentracing_instrumentation" %}
-{% set version = "2.4.3" %}
+{% set version = "3.0.0" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "8532d4358ff5acbf3a9be719ebe4a2d88f81d3a4b08210242abb4d78fc4936b5" %}
+{% set hash_value = "d29c2767614abb5ed53e6dbe6d27fdb2aa3716a0f6c0e12e254127ff24f60983" %}
 
 package:
   name: {{ name|lower }}
@@ -13,7 +13,7 @@ source:
   {{ hash_type }}: {{ hash_value }}
 
 build:
-  number: 1000
+  number: 0
   script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
 
 requirements:
