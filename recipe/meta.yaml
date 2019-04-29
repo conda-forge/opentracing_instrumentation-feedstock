@@ -27,7 +27,7 @@ requirements:
     - wrapt
     - tornado >=4.1,<5
     - contextlib2
-    - opentracing >=1.1,<2
+    - opentracing >=2,<3
     - six
 
 test:
