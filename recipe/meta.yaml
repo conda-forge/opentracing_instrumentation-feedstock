@@ -1,7 +1,7 @@
 {% set name = "opentracing_instrumentation" %}
-{% set version = "3.1.1" %}
+{% set version = "3.2.1" %}
 {% set hash_type = "sha256" %}
-{% set hash_value = "4afedf1469cb1f868e95eb98668bbae4c26088db98cbd6bf0cfde2b087e80472" %}
+{% set hash_value = "a8fb8499c6ab71665313c179e327b406bfa09b0277bd7cb02b2941eaa659d8dd" %}
 
 package:
   name: {{ name|lower }}
@@ -25,7 +25,7 @@ requirements:
     - future
     - futures  # [py2k]
     - wrapt
-    - tornado >=4.1,<5
+    - tornado >=4.1,<6
     - contextlib2
     - opentracing >=2,<3
     - six
@@ -39,8 +39,7 @@ about:
   home: https://github.com/uber-common/opentracing-python-instrumentation
   license: MIT
   license_family: MIT
-  # https://github.com/uber-common/opentracing-python-instrumentation/issues/42
-  # license_file: LICENSE
+  license_file: LICENSE
   summary: Tracing Instrumentation using OpenTracing API (http://opentracing.io)
   dev_url: https://github.com/uber-common/opentracing-python-instrumentation
 
