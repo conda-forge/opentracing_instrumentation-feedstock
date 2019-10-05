@@ -39,8 +39,7 @@ about:
   home: https://github.com/uber-common/opentracing-python-instrumentation
   license: MIT
   license_family: MIT
-  # https://github.com/uber-common/opentracing-python-instrumentation/issues/42
-  # license_file: LICENSE
+  license_file: LICENSE
   summary: Tracing Instrumentation using OpenTracing API (http://opentracing.io)
   dev_url: https://github.com/uber-common/opentracing-python-instrumentation
 
