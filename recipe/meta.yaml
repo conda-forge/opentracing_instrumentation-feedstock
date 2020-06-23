@@ -1,5 +1,5 @@
 {% set name = "opentracing_instrumentation" %}
-{% set version = "3.2.1" %}
+{% set version = "3.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -8,11 +8,11 @@ package:
 source:
   fn: {{ name }}-{{ version }}.tar.gz
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: a8fb8499c6ab71665313c179e327b406bfa09b0277bd7cb02b2941eaa659d8dd
+  sha256: d94801aebab95b7e8f3eeb80ee0e5e886ad4f1761bcadff9b5d1d3d04560c04a
 
 build:
-  number: 1
-  script: "{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv "
+  number: 0
+  script: '{{ PYTHON }} -m pip install . --no-deps --ignore-installed -vvv '
 
 requirements:
   host:
